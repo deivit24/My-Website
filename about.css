@@ -1,0 +1,228 @@
+html,
+body{
+  height: 100%;
+  background: url(img/backgroundBio.jpg) top center no-repeat ;
+  background-attachment: fixed;
+
+}
+
+nav{
+  border-bottom: 2px solid gold;
+}
+
+
+
+#main{
+  background: white;
+  margin:5%;
+  padding: 25px;
+  box-shadow: 0px 0px 13px 5px rgba(68,68,68,0.2);
+}
+
+#main p{
+  margin: auto;
+
+}
+
+img{
+  border: 2px solid black;
+
+}
+
+
+
+.shortHistory{
+  background-color: gold;
+  color: black;
+  padding-top: 25px;
+  border-left: 1px solid gold;
+  text-align: center;
+
+}
+
+.aboutMe{
+  background-color: gold;
+  color: black;
+  padding-top: 25px;
+  text-align: center;
+
+
+}
+
+.about{
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
+
+#main .about p{
+  margin-bottom: 20px;
+  text-align: justify-content-center;
+  font-size: 30px;
+
+}
+.fas{
+  margin-right: 25px;
+}
+
+
+.TE{
+  color: black;
+  background-color: gold;
+  padding-top: 25px;
+}
+
+
+
+h1, h2, h3, h4, h4, h5{
+  font-family: 'Ubuntu', sans-serif;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+}
+#main2 i{
+  font-size: 6em;
+
+
+}
+
+#main2 p{
+
+}
+
+
+
+
+
+
+#main2{
+  margin:5%;
+  padding:25px;
+  box-shadow: 0px 0px 13px 5px rgba(68,68,68,0.2);
+  background: white;
+}
+
+#main2 h1, h2, h3, h4, h5 {
+  text-align: center;
+  margin-bottom: 20px
+}
+#main2 .row h3{
+  text-align: center;
+}
+#main2 p{
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+
+  margin: 20px 0px 15px 0px;
+}
+
+#main3{
+  margin:5%;
+  padding: 25px;
+  box-shadow: 0px 0px 13px 5px rgba(68,68,68,0.2);
+  background: white;
+}
+
+#main3 h2, h3, h4, h5 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#main3 .row h3, h4, h5{
+  text-align: center;
+}
+#main3 li{
+  font-family: "Raleway", sans-serif;
+
+
+  margin: 20px 0px;
+}
+
+#main3 h1{
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  padding-top: 25px;
+}
+
+#main4{
+  margin:5%;
+  padding: 25px;
+  box-shadow: 0px 0px 13px 5px rgba(68,68,68,0.2);
+  background: white;
+}
+
+#main4 h2, h3, h4, h5 {
+  text-align: left;
+  margin-bottom: 0px;
+}
+#main4 li{
+  font-family: "Raleway", sans-serif;
+
+
+  margin: 20px 0px;
+}
+
+#main4 h1{
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: gold;
+  color: black;
+  padding-top: 25px;
+}
+
+
+/* extra extra small devices */
+@media (max-width: 400px){
+  .TE{
+    font-size: 25px;
+  }
+
+  h3{
+    font-size: 25px;
+  }
+
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+  p{
+    font-size: 15px;
+  }
+  #main .about p{
+    margin-bottom: 20px;
+    text-align: justify-content-center;
+    font-size: 15px;
+
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+ }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 993.98px) {
+
+  #main .about p{
+    margin-bottom: 20px;
+    text-align: justify-content-center;
+    font-size: 15px;
+
+  }
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 1200.98px) {
+
+}
+@media (min-width: 992.98px) {
+
+
+}
+
+/* // Extra large devices (large desktops) */
+/* // No media query since the extra-large breakpoint has no upper bound on its width */

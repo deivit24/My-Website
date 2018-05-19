@@ -1,0 +1,45 @@
+body{
+  height: 100%;
+  background: url(img/background.jpg) top center no-repeat ;
+  background-attachment: fixed;
+  align-content: center;
+
+}
+
+div.container{
+  margin: 5%;
+  text-align: center;
+}
+
+
+
+.item1{
+  background: #36454f;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  border: 3px solid gold;
+  width: 100%;
+
+
+}
+
+.item2 {
+  padding:20px;
+  background: #ff2800;
+  border: 3px solid gold;
+  margin-left: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 100%;
+
+}
+
+.item3{
+  padding:20px ;
+  background: #ff2800;
+  border: 3px solid gold;
+  margin-left: 25px;
+  text-align: center;
+  width: 100%;
+}

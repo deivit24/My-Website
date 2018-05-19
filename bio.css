@@ -1,0 +1,36 @@
+body{
+  background: white;
+}
+h2{
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+#carouselExampleIndicators{
+  box-shadow: 0px 0px 13px 5px rgba(68,68,68,0.2);
+
+}
+.my-bio{
+    box-shadow: 0px 0px 13px 5px rgba(68,68,68,0.2);
+}
+
+.bio{
+  padding:10px;
+}
+.bio p{
+  margin: 10px;
+}
+.bio img{
+  width: auto;
+  max-height: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+
+@media (max-width: 500px) {
+  p .lead{
+    font-size: 2px;
+  }
+}
